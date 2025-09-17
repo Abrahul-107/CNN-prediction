@@ -1,0 +1,4 @@
+inference_pages/
+extracted_pages/
+venv/
+.DS_Store

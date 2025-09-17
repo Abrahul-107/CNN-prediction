@@ -1,0 +1,37 @@
+PDF FIRST PAGE CLASSIFICATION - K-FOLD CROSS-VALIDATION SUMMARY
+======================================================================
+Analysis completed: 2025-08-23 16:21:33
+
+OVERALL PERFORMANCE:
+Mean Accuracy: 0.5838 ± 0.0276
+Mean F1-Score: 0.5672 ± 0.0359
+Mean Threshold: 0.692 ± 0.126
+
+PER-FOLD RESULTS:
+Fold 1:
+  Accuracy: 0.5946
+  F1-Score: 0.5305
+  Threshold: 0.500
+Fold 2:
+  Accuracy: 0.5946
+  F1-Score: 0.5958
+  Threshold: 0.820
+Fold 3:
+  Accuracy: 0.5676
+  F1-Score: 0.5447
+  Threshold: 0.720
+Fold 4:
+  Accuracy: 0.5405
+  F1-Score: 0.5419
+  Threshold: 0.600
+Fold 5:
+  Accuracy: 0.6216
+  F1-Score: 0.6233
+  Threshold: 0.820
+
+TRAINING CONFIGURATION:
+Number of folds: 5
+Model architecture: Transfer learning with fine-tuning
+Loss function: Binary cross-entropy
+Optimizer: Adam
+Threshold optimization: F1-score maximization

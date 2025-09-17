@@ -1,0 +1,28 @@
+PDF FIRST PAGE CLASSIFICATION - TRAINING SUMMARY
+============================================================
+Training completed: 2025-08-23 15:56:11
+
+MODEL CONFIGURATION:
+Image Size: (224, 224)
+Architecture: Transfer Learning (MobileNetV2/ResNet50)
+Total Epochs: 62
+Loss Function: Focal Loss (α=0.75, γ=2.0)
+Optimizer: Adam (lr=0.0001)
+
+TRAINING RESULTS:
+Best Training Accuracy: 0.6462
+Best Validation Accuracy: 0.6667
+Final Training Loss: 0.1665
+Final Validation Loss: 0.0732
+
+TEST SET PERFORMANCE:
+Test Accuracy: 0.6071
+Test Precision: 0.5926
+Test Recall: 1.0000
+Test F1-Score: 0.7442
+
+OBSERVATIONS:
+- Transfer learning with pre-trained CNN models
+- Focal loss used to handle class imbalance
+- Data augmentation applied to training data
+- Model saved as 'best_first_page_classifier.h5'
